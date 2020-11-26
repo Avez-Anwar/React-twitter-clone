@@ -1,0 +1,20 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  border-right: 3px solid var(--twitter-background);
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 3px solid var(--twitter-background);
+  padding-bottom: 10px;
+  z-index: 100;
+}

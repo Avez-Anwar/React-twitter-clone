@@ -1,0 +1,25 @@
+.widgets {
+  flex: 0.2;
+}
+
+.widgets__input {
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  background-color: var(--twitter-background);
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.widgets__input > input {
+  background-color: var(--twitter-background);
+  font-size: 15px;
+  border: none;
+  outline-width: 0;
+}
+
+.widgets > img {
+  width: 100%;
+  background-color: var(--twitter-background);
+}
