@@ -23,3 +23,13 @@
   width: 100%;
   background-color: var(--twitter-background);
 }
+
+.widgets__img {
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  height: 80vh;
+  background-color: var(--twitter-background);
+  padding: 20px;
+  border-radius: 30px;
+}

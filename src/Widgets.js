@@ -10,7 +10,10 @@ function Widgets() {
         <SearchIcon />
         <input type="text" placeholder="Search twitter" />
       </div>
-      <img src={Screen} alt="" />
+      <div className="widgets__img">
+        <h2>What's happening</h2>
+        <img src={Screen} alt="" />
+      </div>
     </div>
   );
 }
